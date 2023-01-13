@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Update Customer</title>
+  </head>
+  <body>
+    <a href="/">Create</a>
+    <a href="/delete">Delete</a>
+    <form id="update-form" action="/customers/update" method="post">
+      <label>ID:</label>
+      <input type="number" name="customerNumber" id="customerNumber" />
+      <label>Customer Name:</label>
+      <input type="text" name="customerName" id="customerName" />
+      <label>Contact Last Name:</label>
+      <input type="text" name="contactLastName" id="contactLastName" />
+      <label>Contact First Name:</label>
+      <input type="text" name="contactFirstName" id="contactFirstName" />
+      <label>Phone:</label>
+      <input type="text" name="phone" id="phone" />
+      <label>Address Line 1:</label>
+      <input type="text" name="addressLine1" id="addressLine1" />
+      <label>City:</label>
+      <input type="text" name="city" id="city" />
+      <label>State:</label>
+      <input type="text" name="state" id="state" />
+      <label>Postal Code:</label>
+      <input type="text" name="postalCode" id="postalCode" />
+      <label>Country:</label>
+      <input type="text" name="country" id="country" />
+      <label>Sales Rep Employee Number:</label>
+      <input
+        type="number"
+        name="salesRepEmployeeNumber"
+        id="salesRepEmployeeNumber"
+      />
+      <label>Credit Limit:</label>
+      <input type="number" name="creditLimit" id="creditLimit" />
+      <input type="submit" value="Submit" id="submit" />
+    </form>
+  </body>
+</html>
