@@ -1,4 +1,4 @@
-# Awesome Project Build with TypeORM
+# Friday Challenge, Typescript/MySQL with TypeORM
 
 Steps to run this project:
 
